@@ -1,7 +1,8 @@
-img {
-    float: left;
+body, html {
+    height: 100%;
 }
 
+/* Headings */
 h1 {
     position: center;
     background-color: #000000;
@@ -10,9 +11,121 @@ h1 {
     text-align: center;
 }
 
+h2 {font-size:55px; line-height:60px;}
+h3 {font-size:48px; line-height:54px;}
+h4 {font-size:40px; line-height:46px;}
+h5 {font-size:32px; line-height:40px;}
+h6 {font-size:25px; line-height:30px;}
+
+/* text size */
+.text-small {font-size: 2px; line-height:20px;}
+.text-medium {font-size:16px; line-height:23px;}
+.text-large {font-size:18px; line-height:26px;}
+.title-large {font-size:100px; line-height:95px;}
+
+/* text color */
+.text-white {color:#fff}
+.text-black {color:#000}
+.text-dark-gray {color: #ccc}
+.text-medium-gray {color: #939393}
+
+/* Background colors */
+.bg-transparent {background-color: transparent;}
+.bg-white {background-color: #fff;}
+.bg-black {background-color: #000;}
+.bg-dark-gray {background-color:#ccc;}
+.bg-light-gray {background-color: #f7f7f7;}
+
+/* background image */
+.background {
+    position: relative !important;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* input */
+.input-border-bottom {background: transparent;
+    border: 0;
+    border-bottom: 1px solid #484848;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+/* opacity */
+.opacity1 {opacity: .3}
+.opacity2 {opacity: .6}
+.opacity3 {opacity: .9}
+
+/* border */
+.border-solid {border-style: solid !important;}
+
+
+img {
+    float: left;
+}
+
+
+
 p { 
     width: 600px;
     padding: 10px;
     float: left;
     margin: 0 20px 0 0;
+}
+
+/* Dividers */
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#header {
+    color: #333;
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    margin: 10px 0 0 0;
+    background: #abbebe;
+}
+
+#left {
+    display: inline;
+    color: #333;
+    margin: 10px;
+    padding: 0;
+    width: 200px;
+    float: left;
+}
+
+#right {
+    float: right;
+    color: #333;
+    margin: 10px; 
+    padding: 0;
+    width: 200px;
+    display: inline;
+    position: relative;
+}
+
+#footer {
+    width: 100%;
+    clear: both;
+    color: #333; 
+    background: #abbebe;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+
+.clear {
+    clear: both; 
+    background: none;
+}
+
+#hex {
+    background-image: url(../images/what-the-hex.png);
+    background-repeat: repeat-x, repeat-y;
+    margin-bottom: 0px;
+    overflow: auto;
+    width: 100%;
 }
