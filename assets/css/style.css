@@ -50,10 +50,6 @@ footer {
 hr {
     border: none;
     height: 1px;
-    color: #4aaaa5;
-    background-color: #4aaaa5;
-    margin-top: 20px;
-    margin-bottom: 40px;
 }
 
 p {color: #777777;}
@@ -84,21 +80,6 @@ p {color: #777777;}
 #wrapper {
     margin: 0 auto;
     width: 960px;
-}
-
-#left {
-    display: inline;
-    color: #333;
-    margin: 10px;
-    padding: 0;
-}
-
-#right {
-    color: #333;
-    margin: 10px; 
-    padding: 0;
-    display: inline;
-    position: relative;
 }
 
 .clear {
@@ -139,8 +120,9 @@ h6 {font-size:25px; line-height:30px;}
 .bg-transparent {background-color: transparent;}
 .bg-white {background-color: #fff;}
 .bg-black {background-color: #000;}
-.bg-dark-gray {background-color:#ccc;}
+.bg-dark-gray {background-color:#777;}
 .bg-light-gray {background-color: #f7f7f7;}
+.bg-teal {background-color:#4aaaa5;}
 
 /* background image */
 .background {
@@ -210,6 +192,7 @@ h6 {font-size:25px; line-height:30px;}
     float: left;
     width: 300px;
     height: 357px;
+    margin-bottom: 40px;
 }
 
 /* margin */
@@ -233,7 +216,15 @@ li p { color: black;}
     padding: 10px 10px 10px 10px;
 }
 
+.containerSmall {
+    width: 35%;
+    padding: 10px 10px 10px 10px;
+}
 
 /* floaters */
 .floatLeft {float: left;}
 .floatRight {float: right;}
+
+/* margins */
+.marginTop {margin-top: 20px;}
+.marginBottom { margin-bottom: 40px;}
