@@ -143,5 +143,74 @@ footer {
     margin-right: 20px;
 }
 
+/* contact form */
+.contact-form {
+    clear: both;
+    margin: 0 15px 15px;
+    text-align: center;
+    border: 1px solid #484848;
+    color: #000;
+    padding: 2px 0;
+    font-size: 12px;
+}
 
+form label {
+    display: block;
+    margin-top: 30px;
+}
 
+input[type=text] {
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 90%;
+    margin: 30px 20px;
+}
+
+input[type=email] {
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 90%;
+    margin: 30px 20px;
+}
+
+.messageEntry {
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 90%;
+    margin: 30px 20px;
+}
+
+.submit {
+    font-size: 12px;
+    display: inline-block;
+    border: 2px solid;
+    letter-spacing: .5px;
+    line-height: inherit;
+    border-radius: 0;
+    text-transform: uppercase;
+    width: auto;
+    padding: 9px;
+}
+
+/* Portfolio */
+.portfolio-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
