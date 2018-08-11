@@ -8,7 +8,7 @@ body {
     color: #777;
     margin:0 auto;
     width: 960px;
-    height: 1000px;
+    height: 900px;
 }
 
 header {
@@ -39,7 +39,7 @@ footer {
     background: #666666;
     margin: 0px 0px 10px 0px;
     padding: 10px;
-    position: fixed;
+    position: relative;
     border-top: 5px solid #4aaaa5;
     height: 100px;
     bottom: 0;
@@ -57,6 +57,7 @@ hr {
 }
 
 p {color: #777777;}
+
 /* Dividers */
 #nav {
     padding: 20px;
@@ -78,14 +79,6 @@ p {color: #777777;}
     width: 450px;
     height: 150px;
     padding: 5px;
-}
-
-#container {
-    background-color: #ebebeb;
-    color: #777;
-    width: 500px;
-    height: 200px;
-    float: right;
 }
 
 #wrapper {
@@ -139,7 +132,7 @@ h6 {font-size:25px; line-height:30px;}
 .text-white {color:#fff}
 .text-black {color:#000}
 .teal {color:#4aaaa5;}
-.text-dark-gray {color: #ccc}
+.text-dark-gray {color: #777}
 .text-medium-gray {color: #939393}
 
 /* Background colors */
@@ -219,14 +212,28 @@ h6 {font-size:25px; line-height:30px;}
     height: 357px;
 }
 
-.textRight {
-    float: right;
-}
-
 /* margin */
 .marginLeft1 {margin-left: 10px;}
 
 /* list */
-ul {list-style-type: square;}
-li {color:#4aaaa5;}
+ul {
+    list-style-type: square;
+    margin-left: 10px;
+    color: #4aaaa5;
+}
+li {color:#777;
+    margin-left: 10px;}
+
 li p { color: black;}
+
+/* Classes */
+.container {
+    color: #777;
+    width: 60%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/* floaters */
+.floatLeft {float: left;}
+.floatRight {float: right;}
