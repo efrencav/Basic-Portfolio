@@ -193,7 +193,7 @@ input[type=email] {
 }
 
 /* Portfolio */
-.portfolio-grid {
+/* .portfolio-grid {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -216,3 +216,83 @@ input[type=email] {
     margin-right: 8px;
     vertical-align: middle;
 }
+
+.column img:hover {
+    box-shadow: 0 0 2px 2px #939393;
+} */
+.container {
+    position: relative;
+    width: 46%;
+    margin: 5px;
+    float: left;
+    padding: 0 8px;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4aaaa5;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.left {
+    float: left;
+}
+
+/* Gallery */
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 10px 6px;
+    float: left;
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
