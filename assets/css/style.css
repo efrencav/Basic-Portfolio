@@ -189,37 +189,12 @@ input[type=email] {
     border-radius: 0;
     text-transform: uppercase;
     width: auto;
-    padding: 9px;
+    padding: 20px;
+    color: fff;
+    background-color: #4aaaa5;
 }
 
 /* Portfolio */
-/* .portfolio-grid {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 8px;
-}
-
-.column {
-    flex: 50%;
-    padding: 0 40px;
-
-}
-
-.column img {
-    margin-top: 14px;
-    margin-right: 8px;
-    vertical-align: middle;
-}
-
-.column img:hover {
-    box-shadow: 0 0 2px 2px #939393;
-} */
 .container {
     position: relative;
     width: 46%;
